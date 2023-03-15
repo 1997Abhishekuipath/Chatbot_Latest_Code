@@ -1,0 +1,10 @@
+{
+  "REST": {
+    "AUTH_END_PONT": "api/v1.0/auth",
+    "API_END_POINT" :"api/v1.0"
+  },
+  "SOAP" : {
+    "AUTH_END_PONT" : "/vsaWS/KaseyaWS.asmx",
+    "TICKET_PATH" : "/vsaWS/vsaServiceDeskWS.asmx"
+  }
+}

@@ -1,0 +1,188 @@
+{
+  "server": {
+    "port": 8020,
+    "authToken":"hitachi_bot"
+  },
+  "tcp": {
+    "host": "13.126.42.132",
+    "port": 3006
+  },
+  "mongodb": {
+    "url": "mongodb://Resource:Resource12345@localhost:27017/hitachi"
+  },
+  "mssql" : {
+    "server": "10.83.145.25",
+    "user": "ChatBot",
+    "password": "ChatBot@#112233",
+    "options": {
+      "encrypt": "true"
+    }
+  },
+  "serviceDesk": {
+    "platform": "KASAYA",
+    "createTicket":"true",
+    "config": {
+      "USERNAME": "bot",
+      "PASSWORD": "Pcvisor.Bot@#9895",
+      "HOST_URL": "isupport.hitachi-systems.co.in",
+      "REFRESH_TOKEN_TIME": 300000000,
+      "SOAP": {
+        "IP": "119.82.92.55",
+        "HASH_ALGO": "SHA-256",
+        "SERVICE_DESK": "Incident",
+        "SERVICE_DESK_ID": "78189654510044292432597903",
+        "SERVICE_DESK_PROBLEM": "Service_Request",
+        "SERVICE_DESK_ID_PROBLEM": "52509835330026547221412277",
+        "SERVICE_DESK_HSNT": "HSNT",
+        "SERVICE_DESK_ID_HSNT": "63306715780072575686983798",
+        "REFRESH_SESSION_TIME": 300000000
+      }
+    }
+  },
+  "automation": {
+    "platform": "KASAYA",
+    "config": {
+      "USERNAME": "bot",
+      "PASSWORD": "Pcvisor.Bot@#9895",
+      "HOST_URL": "isupport.hitachi-systems.co.in",
+      "REFRESH_TOKEN_TIME": 300000000,
+      "SOAP": {
+        "IP": "119.82.92.55",
+        "HASH_ALGO": "SHA-256",
+        "SERVICE_DESK": "Incident",
+        "SERVICE_DESK_ID": "41334541980004371136012999",
+        "SERVICE_DESK_PROBLEM": "Service_Request",
+        "SERVICE_DESK_ID_PROBLEM": "52509835330026547221412277",
+        "SERVICE_DESK_HSNT": "HSNT",
+        "SERVICE_DESK_ID_HSNT": "63306715780072575686983798",
+        "REFRESH_SESSION_TIME": 300000000
+      }
+    }
+  },
+  "nlp": {
+    "platform": "Humonics",
+    "version": "v1"
+  },
+  "ticket": {
+    "platform": "KASAYA",
+    "templates": {
+      "incident":{
+        "create": {
+          "default": {
+            "Status": "1.New",
+            "Priority": "Medium",
+            "Category": "",
+            "SubCategory": "",
+            "Summary": "",
+            "SubmitterEmail": "",
+            "Submitter": "",
+            "OrganizationName":"Hitachi",
+            "Organization":"hitachi-systems"
+          
+          },
+          "custom": {
+            "ChangeRequest": "No",
+            "ProblemRecord": "No",
+            "Source": "Call",
+            "ContactNumberNew": "",
+            "VOIPNew": "",
+            "CRNumber1": "",
+            "CRRequired": "",
+            "ExpectedClosureDate": "",
+            "Submitter": "",
+            "CreatedBy": "BOT"
+          }
+        },
+        "update": {
+          "default": {
+            "IncidentNumber": "$TICKET_NO",
+            "Description": "resolved",
+            "Status": "Incident||Resolved",
+            "Resolution": "Incident||Resolved",
+            "Stage": "Incident||Resolved",
+            "ResolutionNote": "resolved"
+          },
+          "custom": {
+            "Urgency": "Medium",
+            "ChangeRequest": "No",
+            "ProblemRecord": "No",
+            "Source": "Call",
+            "KB_Article": "No",
+            "EngineerName": "BOT",
+            "EngineerEmail": "itsupport.ef@hitachi-systems.com",
+            "CRRequired": "No",
+            "CreatedBy": "BOT"
+          }
+        }
+      },
+      "service_request":{
+        "create": {
+          "default": {
+            "Status": "1.New",
+            "Priority": "Medium",
+            "Category": "",
+            "SubCategory": "",
+            "Summary": "",
+            "SubmitterEmail": "",
+            "Submitter": "",
+            "OrganizationName":"Hitachi",
+            "Organization":"hitachi-systems",
+            "Description":""
+          },
+          "custom": {
+            "Contact_Number": "",
+            "VOIP_Number": "",
+            "ReasonforChange":""
+          }
+        },
+        "update": {
+          "default": {
+            "IncidentNumber": "$TICKET_NO",
+            "Description": "resolved",
+            "Status": "Incident||Resolved",
+            "Resolution": "Incident||Resolved",
+            "Stage": "Incident||Resolved",
+            "ResolutionNote": "resolved"
+          },
+          "custom": {
+            "EngineerName": "BOT"
+          }
+        }
+      },
+      "hsnt":{
+        "create": {
+          "default": {
+            "Status": "1.New",
+            "Severity": "Medium",
+            "Category": "",
+            "SubCategory": "",
+            "Summary": "",
+            "SubmitterEmail": "",
+            "Submitter": "",
+            "OrganizationName":"Hitachi Systems Network Technologies",
+            "Organization":"hsnetworktechnologies",
+            "Machine":"",
+            "MachineGuid":"",
+            "MachineGroup":"",
+            "MachineGroupGuid":""
+          },
+          "custom": {
+            "CreatedBy": "BOT"
+          }
+        },
+        "update": {
+          "default": {
+            "IncidentNumber": "$TICKET_NO",
+            "Description": "resolved",
+            "Resolution": "HSNT||Resolved",
+            "Stage": "HSNT||Closed",
+            "ResolutionNote": "resolved"
+          },
+          "custom": {          
+            "CreatedBy": "BOT"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "server":{
+    "port":4080
+  },
+  "tcp":{
+    "host" : "172.31.23.201",
+    "port" : 3075
+  },
+  "mongodb":{
+    "url" : "mongodb://dbadmin:Welcome123@52.66.28.158:27017/gpil"
+  },
+  "serviceDesk" : {
+    "platform" : "KASAYA",
+    "config" : {
+      "USERNAME" : "larsen_toubro",
+      "PASSWORD" : "zxc@#123",
+      "HOST_URL": "nportal.hitachi-systems-mc.com",
+      "REFRESH_TOKEN_TIME" : 300000000,
+      "SOAP" : {
+        "IP" : "119.82.92.55",
+        "HASH_ALGO" : "SHA-256",
+        "SERVICE_DESK" : "Demo",
+        "SERVICE_DESK_ID" : "74487533420061749105353142",
+        "REFRESH_SESSION_TIME" : 300000000
+      }
+    }
+  },
+  "automation" : {
+    "platform" : "KASAYA",
+    "config" : {
+      "USERNAME" : "larsen_toubro",
+      "PASSWORD" : "zxc@#123",
+      "HOST_URL": "nportal.hitachi-systems-mc.com",
+      "REFRESH_TOKEN_TIME" : 300000000,
+      "SOAP" : {
+        "IP" : "119.82.92.55",
+        "HASH_ALGO" : "SHA-256",
+        "SERVICE_DESK" : "Demo",
+        "SERVICE_DESK_ID" : "74487533420061749105353142",
+        "REFRESH_SESSION_TIME" : 300000000
+      }
+    }
+  },
+  "nlp" : {
+    "platform" : "Dialogflow",
+    "version" : "v2"
+  },
+  "ticket" : {
+    "platform" : "KASAYA",
+    "defaultFields" : {
+
+    },
+    "customFields" : {
+
+    },
+    "status" : {
+      "new" : "1.New",
+      "closed" : "Closed"
+    },
+    "priority" : {
+      "medium" : "Medium"
+    },
+    "template" : {
+      "Status" : "$STATUS",
+      "Priority" : "$PRIORITY",
+      "Category" : "$CATEGORY",
+      "SubCategory" : "$SUB_CATEGORY",
+      "Summary" : "$SUMMARY",
+      "SubmitterEmail" : "$SUBMITTER_EMAIL",
+      "Submitter" : "$SUBMITTER",
+      "CreatedBy" : "$CREATED_BY"
+    }
+  }
+}
