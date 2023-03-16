@@ -1,0 +1,2758 @@
+version: "2.0"
+nlu:
+- intent: mediatype
+  examples: |
+    - Mediatype id is [20](any)
+    - Mediatype id is [19](any)
+    - Mediatype id is [18](any)
+    - Mediatype id is [17](any)
+    - Mediatype id is [16](any)
+    - Mediatype id is [15](any)
+    - Mediatype id is [14](any)
+    - Mediatype id is [13](any)
+    - Mediatype id is [12](any)
+    - Mediatype id is [11](any)
+    - Mediatype id is [10](any)
+    - Mediatype id is [9](any)
+    - Mediatype id is [8](any)
+    - Mediatype id is [7](any)
+    - Mediatype id is [6](any)
+    - Mediatype id is [5](any)
+    - Mediatype id is [4](any)
+    - Mediatype id is [3](any)
+    - Mediatype id is [2](any)
+    - Mediatype id is [1](any)
+- intent: opportunity
+  examples: |
+    - [opportunity lost](opportunity)
+    - [lost opportunity](opportunity)
+    - [lost](opportunity)
+    - [won](opportunity)
+    - [win](opportunity)
+    - [loss](opportunity)
+    - [opportunity loss](opportunity)
+    - [opportunity won](opportunity)
+- intent: statuscodename
+  examples: |
+    - [100](number)
+    - [199](number)
+    - [404](number)
+    - [403](number)
+    - [401](number)
+    - [400](number)
+    - [201](number)
+    - [200](number)
+- intent: hostgrouptask
+  examples: |
+    - kindly create/delete host group
+    - create/delete hostgroup
+    - Host Group Creation/Deletion
+    - please create/delete host group
+    - i want to create/delete host group
+- intent: hostupdatezabbix
+  examples: |
+    - i need support in host update
+    - kindly Update Host
+    - i want to update host
+    - Host Update
+- intent: uninstallations
+  examples: |
+    - uninstall [python](component)
+    - uninstall [pycharm](component)
+    - uninstall [visual studio code](component)
+    - uninstall [sonicwall](component)
+    - uninstall
+    - get rid of [skype](component) from my system
+    - remove [skype](component) from my system
+    - [skype](component) is taking too much space , please remove it
+    - I dont need [skype](component) anymore
+    - please uninstall [adobe reader](component) for me
+    - uninstall [adobe reader](component)
+    - please uninstall [7-zip](component)
+- intent: zabbixactionlist
+  examples: |
+    - i need to do something with action
+    - i want to [perform](action) action
+    - [zabbix](option) actions
+    - perform action
+- intent: thanks
+  examples: |
+    - thank you so much
+    - cool
+    - okie dokie
+    - Okay
+    - ok
+    - Thankyou
+    - thanks
+- intent: enablemedianame
+  examples: |
+    - i want media details
+    - perform action on media
+    - give me media
+    - Media
+- intent: PROFILE
+  examples: |
+    - id is [M1111](any)
+    - id is [M6813](any)
+    - [5725246](any)
+
+- intent: UIPath
+  examples: |
+    - UIPath
+    - UI Path
+    - uipath
+    - UIPATH
+
+- intent: ui_process
+  examples: |
+   
+    - [PAN_Testing](any)
+    - [PAN_Prod](any)
+    - [HMS_PDF](any)
+    - [PAN_daily_prod](any)
+    - [Initial_MsEdge_process](any)
+    - [MSedge](any)
+
+- intent: webusername
+  examples: |
+    - [zelk4.microclinic.in](any)
+    - [zabbix-test-PG](any)
+    - [Windows_PCV](any)
+    - [vRealize-OMA-6.7.0.8183617](any)
+    - [Vishal Vedika Server](any)
+    - [Vishal](any)
+    - [Vedika & Rundeck](any)
+    - [VCSA65-9-152.9-Neeraj](any)
+    - [Vcenter](any)
+    - [Vartika_patchmanNew](any)
+    - [vartika hawkeye](any)
+    - [VA-Scanner-152.78-Neeraj](any)
+    - [UDPServer](any)
+    - [S-W2012-License-Server-65-N](any)
+    - [O365-Portal-AB](any)
+    - [OracleCloud](any)
+    - [RundeckServerr](any)
+    - [Switch-5 10.83.152.52](any)
+    - [switch-8 10.83.152.53](any)
+    - [SyslogServer](any)
+    - [TATA ISP Pune](any)
+    - [Gitlab Server](any)
+    - [HawkeyeServer](any)
+    - [HMSProxy](any)
+    - [HMS proxy server](any)
+    - [ISP Airtel Secondary Router](any)
+    - [ISP Gurgaon BSNL](any)
+    - [ISP Reliance - Primary](any)
+    - [ISP Reliance - Router](any)
+    - [NEHAAD](any)
+    - [AV & Backup Server](any)
+    - [1st Floor Real Stair](any)
+    - [1st Floor Secuirty Area](any)
+    - [1st Floor Technical Area](any)
+    - [1st Flr Fisheye Camera - 192.168.1.76](any)
+    - [02. ADC & File Server](any)
+    - [2nd floor Account](any)
+    - [2nd Floor back site Stair](any)
+    - [2nd Floor Gellary](any)
+    - [2nd floor Real Stair](any)
+    - [2nd Flr Fisheye Camera - 192.168.1.73](any)
+    - [3rd Flr Fisheye Camera - 192.168.1.72](any)
+    - [DLO](any)
+    - [HR-ONE](any)
+    - [KEMP LOADER - 1](any)
+    - [KEMP LOADER - 2](any)
+    - [Exchange-1](any)
+    - [Exchange-2](any)
+    - [10-25-2-110-ECS Instance-EC2ContainerService-cluster-prod-mns](any)
+    - [10-25-2-117-ECS Instance-EC2ContainerService-cluster-prod-mns](any)
+    - [10.12.10.188](any)
+    - [10.12.10.165](any)
+    - [10.12.10.154](any)
+    - [10.12.10.153](any)
+    - [10.1.41.104 - Chakan](any)
+    - [10.25.2.9 - NAT-server-Non-prod](any)
+    - [10.25.2.13 - Bastion-Host-Non-Prod-vpc](any)
+    - [10.25.2.23 - Sonarq](any)
+    - [10.25.2.30 - Jenkins-server](any)
+    - [10.25.2.37 - ECS Instance - EC2ContainerService-cluster-qa-mns-1](any)
+    - [10.25.2.42 - ECS Instance - EC2ContainerService-cluster-pre-prod-mns-SAP](any)
+    - [10.25.2.44 - ECS Instance - EC2ContainerService-cluster-dev-MnS](any)
+    - [10.25.2.46 - ECS Instance - EC2ContainerService-cluster-pre-prod-mns](any)
+    - [10.25.2.54 - ECS Instance - EC2ContainerService-cluster-pre-prod-mns](any)
+    - [10.25.2.61 - ECS Instance - EC2ContainerService-cluster-pre-prod-mns-SAP](any)
+    - [10.25.2.77 - Production-Bastion-Host](any)
+    - [10.25.2.91 - Nat server](any)
+    - [10.25.2.101 - EC2ContainerService-SAP-cluster-prod-mns](any)
+    - [10.25.2.125 - EC2ContainerService-SAP-cluster-prod-mns](any)
+    - [10.83.145.56](any)
+    - [10.83.152.26](any)
+    - [10.83.152.40](any)
+    - [10.83.152.49](any)
+    - [10.83.152.50](any)
+    - [10.83.152.67](any)
+    - [10.83.152.86](any)
+    - [10.83.152.91](any)
+    - [10.83.152.92](any)
+    - [10.83.152.93](any)
+    - [10.83.152.94](any)
+    - [10.83.152.110](any)
+    - [10.83.152.120](any)
+    - [10.83.152.194](any)
+    - [10.83.152.232](any)
+    - [10.83.152.242](any)
+    - [10.83.188.33](any)
+    - [Xerox Printer Gurgaon](any)
+    - [11. Triton Manager](any)
+    - [12. WebSense Content Gateway](any)
+    - [12GA FW - 197.10.41.252](any)
+    - [13. Hitachi Monitoring System](any)
+    - [140D WAN 1 - HPPPL](any)
+    - [140D WAN 2 - HPPPL](any)
+    - [172.16.0.144 - Bastion-pub-3rd](any)
+    - [172.16.1.38 - ECS Instance - EC2ContainerService-cluster-prod-mns-public](any)
+    - [172.16.1.50 - cluster-prod-mns-public-prod](any)
+    - [172.16.1.125 - ECS Instance - EC2ContainerService-cluster-prod-mns-public](any)
+    - [172.30.0.33 - ECS Instance - EC2ContainerService-cluster-pre-prod-mns-public](any)
+    - [172.30.0.83 - ECS Instance - EC2ContainerService-cluster-pre-prod-mns-public](any)
+    - [172.30.0.117 - ECS Instance - EC2ContainerService-cluster-dev-mns-public](any)
+    - [172.30.0.121 - ECS Instance - EC2ContainerService-cluster-qa-mns-public](any)
+    - [192.168.10.63](any)
+    - [192.168.10.11](any)
+    - my webhost is [AAMINMLP01](any)
+    - create web for [ABDDLPENDPNT - 192.168.2.70](any)
+    - host for web scenario is [Access Control10.1.41.41 - Chakan](any)
+    - my webhost is [ActiveDirectory_Test](any)
+    - i want to create webscenario for [AD-Server 3.7.50.151](any)
+    - i want to create webscenario for [AD12-B1](any)
+    - i need to create web scenario for [ADC-GGN](any)
+    - require to create webscenario for [ADFS](any)
+    - require to create web scenario for [ADRENALIN](any)
+    - need to create web scenario for [ADRENALIN_LIVE](any)
+    - i want to create web scenario for [Advik Storage 192.168.1.19](any)
+    - please create web for [Advik Storage 192.168.1.20](any)
+    - please create web scenario for [AegonLife-PCV](any)
+    - request to create web scenario for [Affiliated Marketing](any)
+    - request to craete web scenario for [Affiliate_Marketing-Singapore](any)
+    - i want to create web scenario for [Camera- Wajajah - 192.168.17.90](any)
+    - please create web for [MPLS Router Wajajah 172.16.17.1](any)
+    - [Sonicwall - Wajajah- 192.168.17.254](any)
+    - create web scenario for [192.168.50.3](any)
+    - create web monitoring for [dresx01.insurevic.local](any)
+    - create web monitoring for [NSVPX-ESX](any)
+    - kindly create web scene for [VIC-AV](any)
+    - request to create web scenario for [VIC-DEEPSECURITY](any)
+    - create web scenario for [Arjas_proxy](any)
+    - create web scenario for [Bridgestone Proxy](any)
+    - created web mon for [Delhi Cargo Proxy Server](any)
+    - put server under monitoring [gm_proxy](any)
+    - create web scenario for [GSTN Proxy](any)
+    - put [Hawkeye Server](any) under web monitoring
+    - start web scenario for [Webproxysrver1](any)
+    - create web scenario for [Metal_One_Proxy](any)
+    - web monitoring for [igarshi_proxy](any)
+    - web scene for [hpppl_proxy](any)
+    - creation of web scenario for [HDFC_Proxy](any)
+- intent: problemname
+  examples: |
+    - i need problem event details
+    - i want problem event details
+    - problemEventDetails
+    - Problem Event Details
+- intent: enablehostname
+  examples: |
+    - host id is [12092](any)
+    - host id is [16213](any)
+    - host id is [11665](any)
+    - host id is [12644](any)
+    - host id is [16206](any)
+    - host id is [16205](any)
+    - host id is [12642](any)
+    - host id is [10454](any)
+    - host id is [11944](any)
+    - host id is [11971](any)
+    
+- intent: Mediatask
+  examples: |
+    - [Media Disable](media)
+    - i want to [disable media](media)
+    - please [disable media](media)
+    - please [enable media](media)
+    - [Media Enable](media)
+- intent: webscenario
+  examples: |
+    - select Web Monitoring
+    - choose web monitoring
+    - please select Web Monitoring
+    - Web Monitoring
+- intent: hostgroupdetails
+  examples: |
+    - i require host group details
+    - hostGroupdetails are necessary
+    - hostgroup
+    - please provide hostgroup details
+    - i want to know host group details
+    - Host Group details
+- intent: login issues
+  examples: |
+    - Facing Login issue
+    - need to reset my password
+    - am having troible loggin in my system
+    - unable to login in system
+    - am having trouble logging in my system
+    - login issue
+    - login issues
+    - having trouble logging in
+    - help me reset my system login password
+    - am not able to login in my laptop
+    - am having login issues
+- intent: reportgentask
+  examples: |
+    - Report Generation
+    - I want to generate report
+    - reportgeneration
+- intent: urlname
+  examples: |
+    - [http://w3school.com](url)
+    - [http://rlb.com](url)
+    - [http://www.vanasthali.in](url)
+    - [https://aktu.org](url)
+    - [http://askfinance.com](url)
+    - [http://hyperjindal.co.uk](url)
+    - [https://metrorail.uk](url)
+    - [http://drfjkkk.ca](url)
+    - [http://bajaj.org](url)
+    - [https://jindal.in](url)
+    - [https://example.com](url)
+    - [https://snapdeal.com](url)
+- intent: webtask
+  examples: |
+    - i need to [delete web scenario](web)
+    - i want to [create web scenario](web)
+    - [webscenariodeletion](web)
+    - [webscenariocreation](web)
+    - [web scenario deletion](web)
+    - [web scenario creation](web)
+- intent: installations
+  examples: |
+    - [Printer](component) connection
+    - BIO MATRIC DEVICE AND [PRINTER](component) PROGRAM  INSTALLATION  IN  KYI DC
+    - install [python](component)
+    - install [visual studio code](component)
+    - can you install [pycharm](component)
+    - install [firefox](component)
+    - install [sonicwall](component)
+    - I don't have antivirus installed in my laptop, please install the [antivirus](component)
+    - install
+    - install [flash player for chrome](component)
+    - install [cute pdf writer](component)
+    - I need to edit pdf , need some editor tool
+    - I need [skype](component) on my system
+    - I need [adobe reader](component) on my laptop
+    - I need [skype](component) on my laptop
+    - I need [adobe reader](component) on my system
+    - please install [adobe reader](component) on my laptop
+    - please install [skype](component) on my system
+    - would you please install [7-zip](component) for me
+    - help me install [7-zip](component)
+    - help me install
+    - install [skype](component)
+    - install [adobe reader](component)
+    - install [7-zip](component)
+- intent: activeusersname
+  examples: |
+    - get active users
+    - get details of active users
+    - active users list
+    - show active users
+    - please provide Active Users list
+    - ActiveUsers
+    - i need detail of Active Users
+    - Active Users
+- intent: enabledisablenamegroup
+  examples: |
+    - disable host [linux server](any)
+    - enable host [demo](any)
+    - enable host [templates/virtualization](any)
+    - [templates/virtualization](any)
+    - [TEMPLATES/APPLICATION](any)
+    - [discovered hosts](any)
+    - [Linux servers](any)
+    - [SERVERS MICROSOFT/DHCP](any)
+    - [TEMPLATE RDP](any)
+    - [SONICWALL](any)
+    - [DEMO](any)
+    - [TRAINING](any)
+    - [TEMPLATS](any)
+    - [TEMPLATE](any)
+    - [ZABBIX SERVERS](any)
+- intent: hmshostname
+  examples: |
+    - Hostname is [HawkeyeServer](any)
+    - Host name is [Xerox Printer Gurgaon](any)
+    - Host name is [Vishal Vedika Server](any)
+    - Host name is [Vcenter](any)
+    - Host name is [vartika hawkeye](any)
+    - Host name is [TATA ISP Pune](any)
+    - Host name is [SyslogServer](any)
+    - Host name is [Switch-5 10.83.152.52](any)
+    - Host name is [RundeckServerr](any)
+    - Host name is [OracleCloud](any)
+    - Host name is [O365-Portal-AB](any)
+    - Hostname is [NEHAAD](any)
+    - Host name is [ISP Reliance - Router](any)
+    - Host name is [ISP Reliance - Primary](any)
+    - Host name is [ISP Gurgaon BSNL](any)
+    - Host name is [ISP Airtel Secondary Router](any)
+    - Host name is [ISP Airtel Secondary](any)
+    - Host name is [HMS proxy server](any)
+    - Host name is [HMSProxy](any)
+    - Host name is [HawkeyeServer](any)
+    - Host name is [MPLS Router Wajajah 172.16.17.1](any)
+    - Host name is [Camera- Wajajah - 192.168.17.90](any)
+    - Host name is [MPLS Router Barka 172.16.20.1](any)
+    - Host name is [MPLS Router Bahla 172.16.14.1](any)
+    - Host name is [Web](any)
+    - Host name is [YIPLSSCVLT001-10.25.14.12](any)
+    - Host name is [yipltc-s03 - 10.25.128.7](any)
+    - Host name is [Yazaki Proxy](any)
+    - Host name is [YILSGBACELF001 - 10.25.15.25](any)
+    - Host name is [YILSB1ACELF001-10.25.8.18](any)
+    - Host name is [BSPPCCSSRV01](any)
+    - Host name is [BSPMWRVSRV01](any)
+    - Host name is [BSPBBPRSSRV01-chakan](any)
+    - Host name is [BSPBBBSSRV01](any)
+    - Host name is [BSPBADBSRV01](any)
+    - Host name is [BSIDPATLSRV02-chakan](any)
+    - Host name is [Endurance_proxy](any)
+    - Host name is [Delhi Cargo Proxy Server](any)
+    - Host name is [chakan_proxy](any)
+    - Host name is [Bridgestone Proxy](any)
+    - Host name is [Arjas_proxy](any)
+    - Host name is [server12 - 192.168.0.4](any)
+    - Host name is [server1 - 192.168.0.10](any)
+    - Host name is [server- 192.168.100.12](any)
+    - [mcafee- 192.168.0.12](any)
+    - Host name is [ahplsmr - 192.168.1.101](any)
+    - Host name is [Domain_Controller-Baner](any)
+    - Host name is [esx 2 192.168.100.4](any)
+    - Host name is [Firewall for Bawal](any)
+    - Host name is [advik_proxy](any)
+    - Host name is [Advik ISP 49.248.167.162](any)
+    - Host name is [advikasset - 192.168.0.7](any)
+    - Host name is [Gitlab Server](any)
+    - Host name is [Cisco Switch 1](any)
+    - Hostname is [Cisco Switch](any)
+    - Host name is [CheckPoint-FW - Secondary](any)
+    - Host name is [CheckPoint-FW](any)
+    - Host name is [Airtel ISP Kolkata](any)
+    - Host name is [Abhishek Server](any)
+    - Host name is [Abhishek Laptop](any)
+- intent: welcome
+  examples: |
+    - Hi
+    - help
+    - just going to say [hi](given-name)
+    - heya
+    - hello hi
+    - howdy
+    - hey there
+    - hi there
+    - greetings
+    - hey
+    - long time no see
+    - hello
+    - lovely day isn't it
+    - I greet you
+    - hello again
+    - hi
+    - hello there
+    - a good day
+- intent: zabbixactioname
+  examples: |
+    - [enable](actionenable) action for [report not supported low level discovery rules](any)
+    - [disable](actionenable) action for [ping check](any)
+    - [disable](actionenable) [ping check](any)
+    - [enable](actionenable) [report not supported low level discovery rules](any)
+    - [enable](actionenable) [auto discovery. linux servers.](any)
+    - [enable](actionenable) [report problems to zabbix administrators](any)
+    - [enable](actionenable) [report unknown triggers](any)
+- intent: eventduration
+  examples: |
+    - recent 5 alerts
+    - recent 15 alerts
+    - recent 10 alerts
+    - Recent 5 Alerts
+    - Recent 15 Alerts
+    - Recent 10 Alerts
+    - Last 1 day
+- intent: hostgroupseltask
+  examples: |
+    - require to [delete hostgroup](hostgroup)
+    - require to [create hostgroup](hostgroup)
+    - please [delete hostgroup](hostgroup)
+    - [create hostgroup](hostgroup)
+    - please [create hostgroup](hostgroup)
+    - [HostgroupDeletion](hostgroup)
+    - [HostgroupCreation](hostgroup)
+    - [Hostgroup Deletion](hostgroup)
+    - [Hostgroup Creation](hostgroup)
+- intent: enabledisablehostask
+  examples: |
+    - please [enable host](hostenable)
+    - please [disable host](hostenable)
+    - [Host Disable](hostenable)
+    - [Host Enable](hostenable)
+- intent: IT_CLEAN_LIST
+  examples: |
+    - [system](category) is working slow
+    - [browser](category) is lagging performance
+    - [system](category) performance is slow
+    - slow [system](category)
+    - [system](category) slow
+    - [browser](category)
+    - [system](category)
+    - [hardware](category)
+    - [software](category)
+    - Please install [software](category)
+    - Please install [hardware](category)
+    - install [software](category)
+    - install [hardware](category)
+    - [Disable](category) feature
+    - [Enable](category) feature
+    - I want to install [hardware](category)
+    - [disable](category)
+    - [enable](category)
+    - [reset](category)
+    - [change](category)
+    - [Change](category) feature
+    - [Security Enable](category)
+    - [Security Disable](category)
+    - [Restore](category)
+    - Can you [enable security](category) for me
+    - please [disable security](category)
+    - i want you to [disable security](category)
+    - i want you to [restore](category)
+    - [Outlook](category) Issue
+    - [Windows Issue](category)
+    - [browsersetting](category)
+    - [systemsetting](category)
+    - [System settings](category)
+    - [Browser Setting](category)
+    - [System Setting](category)
+    - [browser](category) is slow
+- intent: IT_ISSUE_COMPONENT
+  examples: |
+    - [chrome opening](component)
+    - Resolve the [chrome opening](component) issue
+    - I can [shutdown](component) the system
+    - I can [hibernate](component) the system
+    - [power off](component) my system
+    - system [shutdown](component)
+    - [shutdown](component) system
+    - [hibernate](component) system
+    - I can reset [monitor](component) power setting
+    - [Ie cookies](component)
+    - [Chrome Cache](component)
+    - [IE Temp](component)
+    - [Recycle Bin](component)
+    - [System Temp](component)
+    - [Sytem CPU Utilization](component)
+    - [Event log](component)
+    - [CPU temperature](component)
+    - [Memory Usage](component)
+    - [Ie popup blocker](component)
+    - [disk cleanup](component)
+    - [old files](component)
+    - [SAP](component)
+    - Microsoft Edge
+    - [Edge](component)
+    - google [chrome](component) software is of older version, please update it to the latest
+    - software [chrome](component) needs to be change
+    - [WinRAR](component) update
+    - [winrar](component)
+    - please update [winrar](component)
+    - can you update [winrar](component) software for me
+    - please update [win rar](component) software for me
+    - remove [rapid](component) from my machine
+    - remove [zoom](component)
+    - uninstall [zoom](component) software
+    - uninstall [rapid](component) software
+    - Fortinet [VPN](component) client need to be installed
+    - [Sophos End Point Antivirus](component)
+    - [Sophos Antivirus](component)
+    - Can you install [Google Chrome](component) browser
+    - [Google chrome browser](component)
+    - remote [application](component) [anydesk](component)
+    - [Application](component) [anydesk](component)
+    - [Printer Driver](component)
+    - [3CX IP](component) Phone Software
+    - [IP phone](component)
+    - [IP phone software](component)
+    - [gateway entry](component)
+    - Add [wifi](component) device
+    - [telnet](component)
+    - [wifi](component)
+    - [proxy](component)
+    - [Dns entry](component)
+    - [bluetooth](component)
+    - [Proxy settings](component)
+    - [proxybypass](component)
+    - [firewall](component)
+    - [Admin rights](component)
+    - [USB](component)
+    - [UAC](component)
+    - [Windows Restore](component)
+    - [unresponsive](component)
+    - [Trust relationship](component)
+    - [Chrome opening](component)
+    - [Chrome not opening](component)
+    - there is an [update issue](component)
+    - [update issue](component)
+    - [update](component)
+    - [shutdown](component)
+    - [hibernate](component)
+    - [Chrome Default](component)
+    - [monitor](component)
+    - [printer](component)
+    - select [printer](component)
+- intent: TICKET_LIST
+  examples: |
+    - [All](ticketStatus) tickets
+    - tickets [closed](ticketStatus)
+    - tickets [open](ticketStatus)
+    - [open](ticketStatus) ticket
+    - tickets [opened](ticketStatus)
+    - [All](ticketStatus)
+    - [Open](ticketStatus)
+    - [Closed](ticketStatus)
+    - [Closed](ticketStatus) tickets
+    - [Open](ticketStatus) tickets
+- intent: WINDOWS_LOGIN
+  examples: |
+    - i want to reset [windows](component) password
+    - [laptop](component) password
+    - password reset for [laptop](component)
+    - [Windows](component)
+    - [windows](component) password got expired
+    - please reset [mail](component) password
+    - [Mail](component) password need to be reset
+    - [Mail](component)
+    - reset [mail](component) password
+- intent: IT_LOGIN_CONFIRMATION
+  examples: |
+    - [no](confirmation)
+    - [Yes](confirmation) network
+    - [No](confirmation) network
+    - [No](confirmation) install
+    - [Yes](confirmation) login issue
+    - [Yes](confirmation) install
+    - [Yes](confirmation)
+
+- intent: IT_LOGIN_LIST
+  examples: |
+    - Need to [reset](category) the password
+    - [Forgot](category) the password
+    - Password is [expired](category)
+    - [Reset](category) the password
+    - [forgot](category) password
+- intent: IT_Options
+  examples: |
+    - [IT](option) operations
+    - [CRM](option)
+    - [HMS](option)
+    - [IT](option) Operations
+- intent: component_action
+  examples: |
+    - unable to connect [bluetooth](component)
+    - [bluetooth](component) is not working
+    - [Bluetooth](component) NOT WORKING IN SYSTEM
+    - [WIFI](component) NOT WORKING IN SYSTEM
+    - [visual studio code](component)
+    - [pycharm](component)
+    - [python](component)
+    - [office](component) printer
+    - [proxy](component)
+    - [Telent](component)
+    - [Admin rights](component)
+    - [Firewall](component)
+    - [UAC](component)
+    - [USB](component)
+    - [IP](component)
+    - [old files](component)
+    - [java runtime](component)
+    - [ejijo](component)
+    - [resource](component)
+    - [wifi](component)
+    - [bluetooth](component)
+    - I want an [editor](component) tool
+    - [anydesk](component)
+    - [IE flash player](component)
+    - [flash player firefox](component)
+    - [firefox](component)
+    - [antivirus](component)
+    - [checkpoint vpn](component)
+    - [chrome](component)
+    - [winzip](component)
+    - [flash player for chrome](component)
+    - [teamviewer](component)
+    - [adobe reader](component)
+    - [Cutepdf](component) editor
+    - [Cutepdf writer](component)
+    - [editor](component)
+    - [7zip](component)
+    - [7-zip](component)
+    - [skype](component)
+    - [Mcafee](component)
+    - [mcafee](component)
+
+- intent: login_component
+  examples: |
+    - Dear Team Please Reset [mail](component)  Password
+    - reset [ejijo](component) password
+    - reset [resource](component) password
+    - reset [windows](component) password
+    - reset [mail](component) password
+    - help me reset [ejijo](component) password
+    - reset my [mail](component) password
+    - reset my [email](component) password
+    - recover [system](component) password
+    - [system](component) password 
+    - please help me reset my [system](component) password
+    - reset [system](component) password
+- intent: browser_component_issue
+  examples: |
+    - please block [ie popups](component)
+    - please delete [ie cookies](component) from my browser
+    - delete [ie temp files](component)
+    - block [IE popup](component)
+    - clear [chrome cache](component)
+    - delete [IE cookies](component)
+- intent: network_component_issue
+  examples: |
+    - I can [security enable](category) [admin rights](component)
+    - I can [security enable](category) [uac](component)
+    - I can [security enable](category) [usb](component)
+    - I can [enable](category) [firewall](component)
+    - [connect](category) system to [wifi](component)
+    - [disconnect](category) [wifi](component)
+    - [enable](category) [bluetooth](component)
+    - [enable](category) [bluetooth](component)
+    - [enable](category) [bluetooth](component) in my system
+    - can you [enable](category) [bluetooth](component)
+    - help [disable](category) [wifi](component) in my system
+    - help [enable](category) [wifi](component) in my system
+    - please [connect](category) [wifi](component) in my system
+    - [enable](category) [wifi](component)
+    - [disable](category) [wifi](component)
+    - [disable](category) [bluetooth](component)
+- intent: login_component_no
+  examples: |
+    - thanks but no
+    - no way
+    - no
+    - no no don't
+    - na
+    - no it isn't
+    - don't
+    - nah I'm good
+    - no I cannot
+    - I can't
+    - nothing
+    - no that's okay
+    - no not really
+    - nope not really
+    - nope
+    - thanks but not this time
+    - I don't think so
+    - I disagree
+    - no maybe next time
+    - not this time
+    - no don't
+    - no we are good
+    - don't do it
+    - no that's be all
+    - not right now
+    - nothing else thanks
+    - no thanks
+    - no that's ok
+    - I don't want that
+    - definitely not
+    - nothing else
+    - not
+    - not at all
+    - no never
+    - never
+    - no way no
+    - not really
+    - nah
+    - I don't
+    - I don't want
+    - not today
+    - not interested
+    - no that's fine thank you
+    - I'm not
+- intent: account_details
+  examples: |
+    - please go for account_details
+    - choose account_details
+    - i go for account_details
+    - select account_details
+    - account_details
+- intent: hostgroupdetail_id
+  examples: |
+    - DEMO
+    - Cloud - Kose
+    - Cloud - Lingual consultancy
+    - Cloud - Marks and Spencer
+    - Cloud - Love Vivah
+    - Cloud - Multicraft
+    - Cloud - KEI Industries
+    - Cloud - Japan Foundations
+    - Cloud - IQI Solutions
+    - Cloud - HDBFS
+    - Cloud - GPIL BI Servers
+    - Cloud - GPIL/Lakshya
+    - Cloud - GPIL/Digital
+    - Proxy Servers
+    - ASK Financials
+    - Cloud - Binary Semantics
+    - Cloud - NGK Technology
+    - Cloud - Orient Bell Industries
+    - Cloud - Purshottam Profiles
+    - Chakan/VM
+    - Bristlecone
+    - Bridgestone Chakan Server & VM's 3
+    - Bridgestone Chakan Server & VM's 2
+    - Bridgestone Chakan Server & VM's 1
+    - Bridgestone/Kheda/VM
+    - Bridgestone/Kheda/Server & VM's
+    - Bridgestone/Kheda/Network Devices
+    - Bridgestone/Kheda
+    - Bridgestone/Chakan/Network Devices
+    - Bridgestone/Chakan
+    - Bridge HO DC
+    - ASK Financials/Switches
+    - ASK Financials/WANLinks
+    - ASK Financials/Server-VM
+    - ASK Financials/ISP
+    - ASK Financials/Firewalls
+    - ASK Financials/AccessPoints
+    - Arjas Steel/Arjas_Xen_VM
+    - Arjas Steel/Arjas_Xen_Host
+    - Arjas Steel/Arjas Steel Vm's
+    - Arjas Steel
+    - Appliances
+    - Amadasoft India/Netwok
+    - Amadasoft India
+    - Advik Hi-Tech
+    - ask finance
+    - windows server
+    - Monitoring Server
+    - Firewall
+    - Hypervisors
+    - Discovered hosts
+    - nutanix cluster
+    - Vmware
+    - Nutanix-Cluster
+    - Linux Server
+    - Mark and spencer
+    - Infotech
+    - Jindal
+    - ASK
+    - Naukari
+    - storage devices
+    - windows workstation
+    - Cloud - Spice VAS
+    - Cloud - TechMBS
+    - Cloud - Yaantra
+    - Cloud GPIL Report 1
+    - Cloud GPIL Report 2
+    - Cooper
+    - Cosmo Films
+    - Delhi Cargo
+    - Demo XYZ
+    - Domain Controllers
+    - Endurance
+    - Endurance/Firewall
+    - Endurance/Server
+    - GM Pens
+    - GM Pens/Network 1
+    - GM Pens/Network 2
+    - GM Pens/VM
+    - GPIL
+    - GSTN
+    - Gulf Mushroom
+    - Hawkeye servers
+    - HDFC Ltd
+    - HDFC Ltd - Bangalore
+    - HDFC Ltd - Mumbai
+    - HDFC Mutual Fund
+    - Hitachi Singapore Network
+    - Hitachi Systems Micro Clinic
+    - Hitachi Systems Micro Clinic/Camera
+    - Hitachi Systems Micro Clinic/Network
+    - Hitachi Systems Micro Clinic BOT VMs
+    - Hitachi Systems Micro Clinic VMs
+    - HPPPL
+    - HSNT - Proxy 2 (For Testing)
+    - Igarshi Motors
+    - Igarshi Motors/VMs
+    - Indusind Bank
+    - Infrastructure - Storage
+    - Jay Switch
+    - Jenkins
+    - Jindal Polyfilms
+    - Jindal Polyfilms/ISPs
+    - Jindal Polyfilms/Server
+    - \Kose
+    - KSL Media
+    - KSL Media/Firewall
+    - KSL Media/FirewallNew
+    - KSL Media/MPLS Link
+    - KSL Media/Switch
+    - Metal One
+    - Metal One/VM
+    - Networking Hardware
+    - NOVAC - POC
+    - Punjab Chemicals
+    - Sanzyme
+    - Syngene - POC
+    - Temporary Group - NOC
+    - Test - Viney
+    - Test-Shweta
+    - Testing Group - AB
+    - testserver
+    - Therapiva
+    - TIS Templates
+    - Vision Insurance
+    - Vision Insurance Amerat
+    - Vision Insurance Bahla
+    - Vision Insurance Barka
+    - Vision Insurance Branches
+    - Vision Insurance Branch Server
+    - Vision Insurance Buraimi
+    - Vision Insurance DC
+    - Vision Insurance DC Network Devices
+    - Vision Insurance DC Physical Server
+    - Vision Insurance DC Virtual Server
+    - Vision Insurance DR
+    - Vision Insurance Firewall
+    - Vision Insurance Ghubra
+    - Vision Insurance HO
+    - Vision Insurance Ibra
+    - Vision Insurance HO Devices
+    - Vision Insurance Ibri
+    - Vision Insurance Izki
+    - Vision Insurance Nizwa
+    - Vision Insurance Rustaq
+    - Vision Insurance Salalah
+    - Vision Insurance Samail
+    - Vision Insurance Sohar
+    - Vision Insurance Sur
+    - Vision Insurance Suwaiq
+    - Vision Insurance Switch
+    - Vision Insurance VM
+    - Vision Insurance Wajajah
+    - Vision MPLS
+    - VI Websites
+    - Yazaki (YIPL)
+    - Virtual Machines
+    - I want to get detail of Virtual Machines
+    - Switch
+    - Access Points
+    - ISP
+    - abc*%
+    - abc
+    - abc#$@
+    - network devices
+    - printer
+    - linux servers
+    - Linux
+    - Router
+- intent: installation_issue
+  examples: |
+    - all [installations](action) available
+    - what else can you [install](action)
+    - show list of [installations](action) available for components
+    - all installations available ?
+    - show list of [installations](action)
+    - [install](action) something
+    - what can you install ?
+- intent: uninstallation_issue
+  examples: |
+    - all [uninstallations](action) available
+    - what else can you [uninstall](action)
+    - all [uninstallations](action)
+    - all [uninstallations](action) available ?
+    - show list of [uninstallations](action)
+    - show list of [uninstallations](action) of component available
+    - what can you [uninstall](action) ?
+- intent: network_issue
+  examples: |
+    - Network (action) issue
+    - Network (action) Issue
+    - [network](action) issues
+    - am having trouble connecting with wifi
+    - [network](action) problem
+    - help with [network](action) problems
+- intent: Performance_issue
+  examples: |
+    - help with windows [security](action)
+    - software [updation](action)
+    - Please do [Updation](action)
+    - i want to [update](action) an software
+    - Issue in [network](action)
+    - windows [security](action) rule need to be changed
+    - [security](action) rule to be added
+    - [security](action) rule to be changed
+    - [security](action)
+    - windows [security](action)
+    - [troubleshooting](action) need to be done on my system
+    - what options are there in [troubleshooting](action)
+    - Help with [Troubleshooting](action)
+    - please perform [troubleshooting](action)
+    - [settings](action)
+    - perfrom the [troubleshooting](action) steps
+    - set the [settings](action)
+    - do the [settings](action)
+    - [setting](action) required
+    - required [settings](action)
+    - Open [settings](action)
+    - show me [settings](action)
+    - Windows [Settings](action)
+    - I am having performance [issue](action)
+    - [clean](action) my laptop
+    - [clean](action) my pc
+    - [clear](action) my pc
+    - [issue](action) of performance
+    - system not performing [Issue](action)
+    - [Clean](action) the system
+    - Performance [Issue](action)
+- intent: system_issue_component
+  examples: |
+    - I can delete files & folders [older than](component) 30days from download
+    - I can clean [event log](component)
+    - I can clean up the [disc](component)
+    - I can clean [System temp files](component)
+    - clear my [recycle bin](component)
+    - clear [recycle bin](component)
+    - clean [system temp](component) files
+    - I can get [CPU Usage](component)
+    - please check my systems [temperature](component)
+    - please tell me my system's [memory usage](component)
+    - please check my systems [memory usage](component)
+    - [Memory Usage](component)
+    - my system is heating please check its [temperature](component)
+    - [Cpu tempetature](component)
+    - [memory usage](component)
+    - [Event log](component)
+    - [Recycle bin](component)
+    - [System temp](component)
+    - [old file](component)
+    - [old files](component)
+    - [System Cpu Utilization](component)
+    - [disk cleanup](component)
+    - get [CPU usage](component)
+    - get [CPU temperature](component)
+    - empty my [recycle bin](component)
+    - get top 5 [memory usage](component)
+    - clean [event logs](component)
+    - clean [recycle bin](component)
+- intent: network_issue_no
+  examples: |
+    - thanks but no
+    - no way
+    - no
+    - no no don't
+    - na
+    - no it isn't
+    - don't
+    - nah I'm good
+    - no I cannot
+    - I can't
+    - nothing
+    - no that's okay
+    - no not really
+    - nope not really
+    - nope
+    - thanks but not this time
+    - I don't think so
+    - I disagree
+    - no maybe next time
+    - not this time
+    - no don't
+    - no we are good
+    - don't do it
+    - no that's be all
+    - not right now
+    - nothing else thanks
+    - no thanks
+    - no that's ok
+    - I don't want that
+    - definitely not
+    - nothing else
+    - not
+    - not at all
+    - no never
+    - never
+    - no way no
+    - not really
+    - nah
+    - I don't
+    - I don't want
+    - not today
+    - not interested
+    - no that's fine thank you
+    - I'm not
+- intent: Application_login
+  examples: |
+    - please reset my [resource portal](component) password
+    - not able to login into [resource portal](component)
+    - [Ejijo](component) login failed
+    - [resource](component) password reset
+    - [Resource Portal](component) password reset
+    - [Mobile](component) application
+    - [Ejijo](component) Mobile
+    - [Ejijo](component)
+- intent: Hostgroup_name
+  examples: |
+    - Hostgroup name is [windows servers](any)
+    - Hostgroup name is [linux servers](any)
+    - Hostgroup name is [network switches](any)
+    - Hostgroup name is [vmware](any)
+    - Hostgroup name is [virtual machines](any)
+    - Hostgroup name is [hitachi](any)
+    - Hostgroup name is [switches](any)
+    - Hostgroup name is [routers](any)
+    - Hostgroup name is [ISP](any)
+    - Hostgroup name is [printers](any)
+    - Hostgroup name is [camera](any)
+    - Hostgroup name is [access points](any)
+    - Hostgroup name is [windows workstations](any)
+    - Hostgroup name is [bridges](any)
+    - Hostgroup name is [infosys](any)
+    - Hostgroup name is [jindal](any)
+    - Hostgroup name is [abc-/%*#](any)
+    - Hostgroup name is [fgh#$%*](any)
+    - Hostgroup name is [HMSserver](any)
+    - deletion host group id is [20](any)
+    - deletion host group id is [144](any)
+    - deletion host group id is [94](any)
+    - deletion host group id is [16](any)
+    - deletion host group id is [305](any)
+    - deletion host group id is [362](any)
+    - deletion host group id is [19](any)
+    - deletion host group id is [149](any)
+    - Hostgroup name is [abc](any)
+    - Hostgroup name is [Abcserver](any)
+    - Hostgroup name is [testserver](any)
+    - Hostgroup name is [Amadasoft India](any)
+    - Hostgroup name is [Advik Hi-Tech](any)
+    - Hostgroup name is [Amadasoft India/Network](any)
+    - require to [Amadasoft India/Servers](any)
+    - go for [Appliances](any)
+    - i want to create [Arjas Steel](any)
+    - i want to create [Arjas Steel/Arjas Steel Vm](any)
+    - require you to create [Arjas Steel/Arjas_Xen_Host](any)
+    - go for the option [Arjas Steel/Arjas_Xen_VM](any)
+    - please go for [Arjas Steel/Citrix](any)
+    - i want to go for [ASK Financials](any)
+    - i want to do [ASK Financials/AccessPoints](any)
+    - i want to choose [ASK Financials/Firewalls](any)
+    - please go for [ASK Financials/ISP](any)
+    - require you to go for [ASK Financials/Server-VM](any)
+    - select for [ASK Financials/Switches](any)
+    - i want to go for [ASK Financials/WANLinks](any)
+    - please go for the option [Bridge HO DC](any)
+    - i select for [Bridgestone/Chakan](any)
+    - for the option [Bridgestone/Chakan/Network Devices](any)
+    - please select for [Bridgestone/Kheda](any)
+    - Hostgroup: [Bridgestone/Kheda/Network Devices](any)
+    - i want to go for Hostgroup: [Bridgestone/Kheda/Server & VM's](any)
+    - please go for [Bridgestone/Kheda/VM](any)
+    - request you to go for [Bridgestone Chakan Server & VM's 1](any)
+    - select for [Bridgestone Chakan Server & VM's 2](any)
+    - i want o select [Bridgestone Chakan Server & VM's 3](any)
+    - request to go [Bristlecone](any)
+    - please go for [Chakan/VM](any)
+    - go for the option [Cloud - AVHA LifeSciences](any)
+    - deletion host group id is [176](any)
+    - deletion hostgroup id [53](any)
+    - deletion hostgroup id [29](any)
+    - deletion hostgroup id [175](any)
+    - Hostgroup name is [Faridabad](any)
+    - Hostgroup name is [faridabad delhi](any)
+    - Hostgroup name is [jondal customer](any)
+    - Hostgroup name is [advik/network](any)
+    - Hostgroup name is [KPMG](any)
+    - Hostgroup name is [dell](any)
+    - Hostgroup name is [mpls](any)
+    - Hostgroup name is [tmls](any)
+    - Hostgroup name is [customer device](any)
+    - Hostgroup name is [e&y branch](any)
+    - Hostgroup name is [E&Y](any)
+- intent: account_name
+  examples: |
+    - Account name is [hitachi systems](any)
+    - Account name is [Unviersall](any)
+    - Account name is [Axis](any)
+    - Account is [ekana](any)
+    - Account is [Dell India pvt ltd](any)
+    - Account is [Dell India pvt lrd](any)
+    - Account is [ASDGH SETVVV](any)
+    - Account is [customr](any)
+    - Account is [kpmg](any)
+    - Account is [Hampi](any)
+    - Account is [GRP India](any)
+    - Account is [Rollatainers Ltd.](any)
+    - Account is [United Bank Of India (UBI)](any)
+    - Account is [West Bengal Swarojgar Coporation Ltd.](any)
+    - Account is [Kashipur Infrastructure and Freight Terminal Pvt. Ltd.](any)
+    - Account is [UB Engineering Ltd.](any)
+    - Account is [Multi Screen Media Pvt. Ltd.](any)
+    - Account is [Tamilnadu Generation and Distribution Corporation Ltd. (TANGEDCO)](any)
+    - Account is [Universal Cartridge Store](any)
+    - Account is [Danieli India Ltd.](any)
+    - Account is [Axis bank](any)
+    - Account is [Axis](any)
+- intent: Host_operation
+  examples: |
+    - [System Availability](operations)
+    - [Top Triggers](operations)
+    - [top_triggers](operations)
+    - I need [Memory Utilization](operations)
+    - I need [cpu utilization](operations)
+    - [Memory Utilization](operations)
+    - [CPU Utilization](operations)
+- intent: troubleshoot_outlook
+  examples: |
+    - [outlook](component)
+    - [outlook](component) is not working properly
+    - [outlook](component) is [unresponsive](category)
+    - [outlook](component) is [unresponsive](category) please provide solution
+    - Resolve the [outlook](component) unresponsive issue
+    - [troubleshoot](action) [outlook](category)
+    - [outlook](component) is [unresponsive](category) please fix it
+- intent: system_performance_issue
+  examples: |
+    - 2nd system is not working
+    - System issues
+    - system is very problematic
+    - my system is not working properly
+    - laptop troubleshoot
+    - laptop hangs alot
+    - laptop issues
+    - need system replacement
+    - am system hangs alot
+    - am having system issues
+- intent: browser_performance_issue
+  examples: |
+    - browser issues
+    - chrome is unresponsive
+    - chrome hangs alot
+    - browser hangs alot
+    - my browser is too slow
+    - browser is unresponsive
+    - IE is unresponsive
+    - my browser is not working properly
+- intent: browser_settings
+  examples: |
+    - please [set](action) [chrome](component) as [default browser](component1)
+    - [set](action) [chrome](component) as [default browser](component1)
+- intent: ticket_status
+  examples: |
+    - [tickets](component)
+    - [Ticket](component) Status
+    - [Tickets](component)
+    - [ticket](component)
+- intent: raise_ticket
+  examples: |
+    - raise an issue with [wifi](component)
+    - raise an issue with [bluetooth](component)
+    - raise an issue with [adobe reader](component)
+    - raise an issue with [7zip](component)
+    - raise an issue with [skype](component)
+    - can you raise an incident for me
+    - can you raise an sr for me
+    - how can I raise an sr
+    - can you tell me the steps to log a ticket
+    - how to raise a ticket ?
+- intent: click_totalamount
+  examples: |
+    - select [totalopen](total)
+    - select [totalwon](total)
+    - select [totalloss](total)
+    - [totalopen](total)
+    - [totalwon](total)
+    - [totalloss](total)
+- intent: sum_value
+  examples: |
+    - choose sum_value
+    - select sum_value
+    - go for sum_value
+    - provide sum_value
+    - sum_value
+
+- intent: installations_yes
+  examples: |
+    - yes_confirm
+    - okay_done
+    
+- synonym: Won
+  examples: |
+    - Won
+    - won opportunity
+    - won
+    - win
+    - Won Opportunity
+    - OPPORTUNITY WON
+    - opportunities won
+    - OPPORTUNITIES WON
+- synonym: Loss
+  examples: |
+    - Loss
+    - lost
+    - loss
+    - loss opportunity
+    - opportunity loss
+    - OPPORTUNITY LOSS
+    - opportunities loss
+    - OPPORTUNITIES LOSS
+    - Opportunity Loss
+- synonym: Action Enable
+  examples: |
+    - Action Enable
+    - Action enable
+    - action enable
+    - actionenable
+    - enable action
+- synonym: ENABLE
+  examples: |
+    - ENABLE
+    - enable
+    - Enable
+- synonym: Action Disable
+  examples: |
+    - Action  Disable
+    - action disable
+    - actiondisable
+    - disable action
+    - ACTION DISABLE
+- synonym: DISABLE
+  examples: |
+    - DISABLE
+    - disable
+    - Disable
+    - disconnect
+    - Disconnect
+    - DISCONNECT
+- synonym: url
+  examples: |
+    - url
+    - URL
+    - Url
+    - https://
+    - http://
+    - uri
+    - URI
+    - http
+    - https
+- synonym: YES
+  examples: |
+    - yes
+    - YES
+    - Yes
+- synonym: NO
+  examples: |
+    - NO
+    - no
+    - No
+- synonym: any
+  examples: |
+    - any
+- synonym: Web scenario creation
+  examples: |
+    - Web scenario creation
+    - WEB SCENARIO CREATION
+    - create web scenario
+    - create web scanerio
+    - WebScenarioCreation
+- synonym: Web scenario deletion
+  examples: |
+    - Web scenario deletion
+    - WEB SCENARIO DELETION
+    - delete web scenario
+    - WebScenarioDeletion
+- synonym: SYSTEM CPU UTILIZATION
+  examples: |
+    - CPU
+    - cpu
+    - cpu utilization
+    - SYSTEM CPU UTILIZATION
+    - system cpu utilization
+    - System CPU utilization
+    - CPU UTILIZATION
+    - Cpu Utilization
+    - cpu usage
+    - CPU Usage
+- synonym: CPU
+  examples: |
+    - CPU Utilization
+    - Cpu Util
+    - CpuUtil
+- synonym: MEMORY
+  examples: |
+    - MEMORY
+    - memory
+    - memory_utilization
+    - memory utilization
+    - memory util
+    - MemoryUtil
+- synonym: TRIGGER
+  examples: |
+    - TRIGGER
+    - trigger
+    - top trigger
+    - toptriggers
+    - top_trigger
+    - TOP_TRIGGER
+    - TOP TRIGGER
+- synonym: SYSTEM
+  examples: |
+    - SYSTEM
+    - system availablity
+    - SYSTEM AVAILABLITY
+    - System
+    - availablity
+    - Availablity
+    - systemavailablity
+    - System availablity
+    - system
+- synonym: Host Enable
+  examples: |
+    - Host Enable
+    - Host enable
+    - enable host
+    - Hostenable
+- synonym: Host Disable
+  examples: |
+    - Host Disable
+    - host disable
+    - disable host
+    - Hostdisable
+- synonym: totalwon
+  examples: |
+    - totalwon
+    - TOTALWON
+    - totalwin
+    - TotalWon
+    - Totalwon
+- synonym: totalloss
+  examples: |
+    - totalloss
+    - TOTALLOSS
+    - Totalloss
+- synonym: totalopen
+  examples: |
+    - totalopen
+    - TotalOpen
+    - Totalopen
+    - TOTALOPEN
+- synonym: firstname
+  examples: |
+    - firstname
+    - FirstName
+    - Firstname
+    - FIRSTNAME
+    - namefirst
+- synonym: lastname
+  examples: |
+    - lastname
+    - LASTNAME
+    - surname
+    - sirname
+    - LastName
+    - Lastname
+- synonym: INSTALL
+  examples: |
+    - install
+    - installation
+    - Installation
+    - Install
+    - INSTALL
+    - INSTALLATION
+- synonym: UNINSTALL
+  examples: |
+    - uninstall
+    - uninstallation
+    - UNINSTALLATION
+    - UNINSTALL
+    - Uninstall
+- synonym: TROUBLESHOOT
+  examples: |
+    - troubleshoot
+    - TROUBLESHOOT
+    - trouble
+    - Trouble
+    - Troubleshooting
+    - troubleshooting
+- synonym: CLEAN
+  examples: |
+    - clean
+    - issue
+    - Issue
+    - get
+    - show
+    - delete
+    - Delete
+    - clear
+    - Clear
+    - performing
+    - performance
+- synonym: RAISE SR
+  examples: |
+    - Raise sr
+    - service request
+    - SERVICE REQUEST
+    - RAISE SR
+- synonym: LOGIN ISSUE
+  examples: |
+    - LOGIN ISSUE
+    - login issue
+    - authentication
+    - authentication issue
+    - Authenticate
+    - Login
+    - login
+    - LOGIN
+- synonym: NETWORK
+  examples: |
+    - NETWORK
+    - network
+    - Network
+- synonym: SETTINGS
+  examples: |
+    - SETTINGS
+    - settings
+    - Settings
+- synonym: SECURITY
+  examples: |
+    - SECURITY
+    - security
+    - Security
+    - seCurity
+- synonym: Open
+  examples: |
+    - Open
+    - open
+    - 'OPEN
+    - pending
+    - Pending
+- synonym: Closed
+  examples: |
+    - Closed
+    - closed
+    - close
+    - CLOSE
+    - CLOSED
+    - completed
+    - Completed
+- synonym: ALL
+  examples: |
+    - ALL
+    - all
+    - All
+- synonym: Hostgroup creation
+  examples: |
+    - Hostgroup creation
+    - Hostgroup Creation
+    - create hostgroup
+    - hostgroupcreation
+    - HostgroupCreation
+- synonym: Hostgroup deletion
+  examples: |
+    - Hostgroup deletion
+    - Hostgroup Deletion
+    - hostgroup deletion
+    - delete hostgroup
+    - hostgroupdeletion
+    - HostgroupDeletion
+- synonym: IT
+  examples: |
+    - IT
+    - it
+    - It
+- synonym: CRM
+  examples: |
+    - CRM
+    - crm
+    - Crm
+- synonym: HMS
+  examples: |
+    - HMS
+    - hms
+    - Hms
+    - zabbix
+    - ZABBIX
+    - Zabbix
+- synonym: Media Enable
+  examples: |
+    - Media Enable
+    - media enable
+    - MediaEnable
+    - enable media
+- synonym: Media Disable
+  examples: |
+    - Media Disable
+    - media disable
+    - disable media
+- synonym: 7ZIP
+  examples: |
+    - 7-zip
+    - 7zip
+    - 7ZIP
+    - 7Zip
+- synonym: ADOBE READER
+  examples: |
+    - adobe
+    - ADOBE READER
+    - Adobe reader
+    - Adobe Reader
+    - adobe reader
+- synonym: CHROME CACHE
+  examples: |
+    - CHROME CACHE
+    - chrome cache
+    - Chrome Cache
+- synonym: GOOGLE CHROME
+  examples: |
+    - GOOGLE CHROME
+    - Google Chrome
+    - google chrome
+    - chrome
+    - Chrome browser
+    - chrome browser
+    - Google chrome
+- synonym: JAVA RUNTIME
+  examples: |
+    - JAVA RUNTIME
+    - java runtime
+    - JAVA
+    - java
+    - Java updates
+    - Java Runtime Latest Version
+    - Java latest version
+    - Java runtime latest
+    - java runtime latest
+    - java updates
+- synonym: CPU TEMPERATURE
+  examples: |
+    - CPU TEMPERATURE
+    - CPU temperature
+    - CPU Temperature
+    - CPUt
+    - Cpu temperature
+    - cpu temperature
+- synonym: RECYCLE BIN
+  examples: |
+    - RECYCLE BIN
+    - recycle bin
+    - Recycle Bin
+    - Recycle bin
+    - recyclebin
+- synonym: WINDOWS
+  examples: |
+    - WINDOWS
+    - windows
+    - Windows
+    - laptop
+    - Laptop
+- synonym: ON DEMAND SCAN
+  examples: |
+    - ON DEMAND SCAN
+    - on demand scan
+    - on Demand Scan
+    - ondemandscan
+    - ONDEMANDSCAN
+    - On Demand Scan
+- synonym: RESOURCE PORTAL
+  examples: |
+    - RESOURCE PORTAL
+    - resource
+    - portal
+    - Resource Portal
+    - resource portal
+    - Resource
+- synonym: WIFI
+  examples: |
+    - WIFI
+    - Wifi
+    - WiFi
+    - wifi
+- synonym: PROXY
+  examples: |
+    - PROXY
+    - proxy
+    - Proxy
+- synonym: PROXYBYPASS
+  examples: |
+    - PROXYBYPASS
+    - proxybypass
+    - ProxyByPass
+    - PROXY BY PASS
+    - proxy by pass
+- synonym: SHAREPOINT
+  examples: |
+    - SHAREPOINT
+    - sharepoint
+    - share
+    - SHARE
+    - share point
+- synonym: ADMIN
+  examples: |
+    - ADMIN
+    - admin
+    - adm
+    - Admin
+    - ADM
+- synonym: TICKETING DESK
+  examples: |
+    - TICKETING DESK
+    - ticketing desk
+    - Ticketing Desk
+    - ticket
+    - Ticket
+- synonym: VPN
+  examples: |
+    - VPN
+    - vpn
+    - Vpn
+- synonym: IE TEMP
+  examples: |
+    - IE TEMP
+    - IE temp
+    - ie temp
+    - IE Temp
+    - IE TEMP Files
+    - ie temp files
+    - IE temp files
+- synonym: EVENT LOG
+  examples: |
+    - EVENT LOG
+    - event log
+    - Event log
+    - Event Log
+    - Event Logs
+- synonym: MAIL
+  examples: |
+    - MAIL
+    - mail
+    - Mail
+- synonym: SKYPE
+  examples: |
+    - SKYPE
+    - skype
+    - Skype
+- synonym: GATEWAY ENTRY
+  examples: |
+    - GATEWAY ENTRY
+    - gateway entry
+    - Gateway Entry
+    - Gateway entry
+- synonym: DNS ENTRY
+  examples: |
+    - DNS ENTRY
+    - DNS entry
+    - dns entry
+    - Dns Entry
+    - Dns entry
+- synonym: TELNET
+  examples: |
+    - TELNET
+    - Telnet
+    - telnet
+- synonym: USB
+  examples: |
+    - USB
+    - usb
+    - Usb
+- synonym: IE POPUP BLOCKER
+  examples: |
+    - IE POPUP BLOCKER
+    - IE popup blocker
+    - ie popup blocker
+- synonym: BLUETOOTH
+  examples: |
+    - BLUETOOTH
+    - bluetooth
+    - Bluetooth
+- synonym: SHUTDOWN
+  examples: |
+    - SHUTDOWN
+    - shutdown
+    - Shutdown
+- synonym: HIBERNATE
+  examples: |
+    - HIBERNATE
+    - hibernate
+    - Hibernate
+- synonym: PROXY SETTING
+  examples: |
+    - PROXY SETTING
+    - proxy setting
+    - Proxy Setting
+    - Proxy setting
+- synonym: CHECKPOINT VPN
+  examples: |
+    - CHECKPOINT VPN
+    - Checkpoint
+    - checkpoint vpn
+    - Checkpoint Vpn
+    - Checkpoint VPN
+- synonym: OFFICE PRINTER
+  examples: |
+    - Printer
+    - printer
+    - PRINTER
+    - Office printer
+    - office printer
+    - OFFICE PRINTER
+- synonym: CUTEPDF WRITER
+  examples: |
+    - CUTEPDF WRITER
+    - Cutepdf Writer
+    - editor
+- synonym: FLASH PLAYER FIREFOX
+  examples: |
+    - FLASH PLAYER FIREFOX
+    - Flash Player Firefox
+- synonym: FIREFOXBROWSER
+  examples: |
+    - FIREFOXBROWSER
+    - firefoxbrowser
+- synonym: IE COOKIES
+  examples: |
+    - IE COOKIES
+    - Ie cookies
+- synonym: FIREFOX
+  examples: |
+    - FIREFOX
+    - firefox
+    - FireFox
+- synonym: SYSTEM TEMP
+  examples: |
+    - SYSTEM TEMP
+    - system temp
+    - System Temp
+    - system temp files
+    - System Temp files
+    - SYSTEM TEMP FILES
+- synonym: WINDOWS RESTORE
+  examples: |
+    - WINDOWS RESTORE
+    - Windows restore
+    - windows restore
+- synonym: UNRESPONSIVE
+  examples: |
+    - UNRESPONSIVE
+    - unresponsive
+    - Unresponsive
+    - response
+    - responding
+    - Response
+- synonym: MONITOR
+  examples: |
+    - Monitor
+    - monitor
+    - MONITOR
+    - power
+    - Power
+    - POWER
+    - MONITOR POWER
+    - Monitor Power
+- synonym: CHROME OPENING
+  examples: |
+    - CHROME OPENING
+    - Chrome Opening
+    - chrome opening
+    - Chrome opening
+- synonym: UPDATE ISSUE
+  examples: |
+    - UPDATE ISSUE
+    - update issue
+    - Update Issue
+    - Update issue
+- synonym: SAP
+  examples: |
+    - SAP
+    - sap
+    - Sap
+- synonym: DISK CLEANUP
+  examples: |
+    - DISK CLEANUP
+    - Disk cleanup
+    - disk cleanup
+    - cleanup
+    - Cleanup
+    - Disk
+- synonym: TRUST RELATIONSHIP
+  examples: |
+    - TRUST RELATIONSHIP
+    - Trust Relationship
+    - trust relationship
+    - windows trust
+    - Windows trust
+- synonym: WORKSTATION
+  examples: |
+    - WORKSTATION
+    - workstation
+    - maintenance
+    - Maintenance
+    - workstation maintenance
+- synonym: APP STORE
+  examples: |
+    - APP STORE
+    - app store
+    - App store
+- synonym: MSOFFICE
+  examples: |
+    - MSOFFICE
+    - MS Office
+    - ms office
+    - ms-office
+    - MS-Office
+    - MS-OFFICE
+    - microsoft office
+- synonym: CHROME DEFAULT
+  examples: |
+    - CHROME DEFAULT
+    - chrome default
+    - Default Browser Chrome
+    - default browser chrome
+- synonym: OLD FILES
+  examples: |
+    - OLD FILES
+    - old files
+    - Old Files
+    - Old files
+    - older than
+    - Older
+- synonym: FIREWALL
+  examples: |
+    - FIREWALL
+    - firewall
+    - Firewall
+- synonym: ANTIVIRUS
+  examples: |
+    - ANTIVIRUS
+    - antivirus
+    - Antivirus
+- synonym: IP
+  examples: |
+    - IP
+    - ip
+    - Ip
+- synonym: WINZIP
+  examples: |
+    - WINZIP
+    - winzip
+    - win zip
+    - Win zip
+    - Win Zip
+- synonym: FORTINET
+  examples: |
+    - FORTINET
+    - VPN CLIENT
+    - VPN Client
+    - Fortinet VPN
+    - FORTINET VPN
+    - Fortinet VPN client
+- synonym: SOPHOS
+  examples: |
+    - SOPHOS
+    - sophos
+    - sophos end point
+    - Sophos antivirus
+    - Sophos End Point Antivirus
+- synonym: ANYDESK
+  examples: |
+    - ANYDESK
+    - anydesk
+    - any desk
+    - Anydesk
+- synonym: TEAMVIEWER
+  examples: |
+    - TEAMVIEWER
+    - teamviewer
+    - Teamviewer
+    - Team viewer
+- synonym: IP PHONE
+  examples: |
+    - IP PHONE
+    - 3CX IP Phone Software
+    - 3CX phone
+    - 3 IP phone
+    - 3CX IP Phone
+- synonym: PRINTER DRIVER
+  examples: |
+    - Printer Driver
+    - PRINTER DRIVER
+    - printer driver
+- synonym: EJIJO
+  examples: |
+    - EJIJO
+    - ejijo
+    - Ejijo
+    - E_jijo
+    - Mobile app
+    - Mobile application
+- synonym: SOFTWARE
+  examples: |
+    - software
+    - SOFTWARE
+    - Software
+- synonym: HARDWARE
+  examples: |
+    - hardware
+    - HARDWARE
+    - Hardware
+- synonym: BROWSER
+  examples: |
+    - BROWSER
+    - browser
+    - Browser
+- synonym: FORGOT PASSWORD
+  examples: |
+    - FORGOT PASSWORD
+    - forgot
+    - Forgot
+    - Forgot password
+    - Forgot Password
+- synonym: EXPIRED PASSWORD
+  examples: |
+    - EXPIRED PASSWORD
+    - Expired
+    - Expired Password
+    - expired
+    - expire
+- synonym: SECURITY ENABLE
+  examples: |
+    - SECURITY ENABLED
+    - security enables
+    - security enabled
+    - enable security
+    - Security Enabled
+- synonym: SECURITY DISABLE
+  examples: |
+    - SECURITY DISABLE
+    - SECURITY DISABLED
+    - Security disabled
+    - disable security
+- synonym: RESET
+  examples: |
+    - RESET PASSWORD
+    - reset password
+    - Reset Password
+    - Reset password
+    - reset
+    - RESET
+    - Reset
+- synonym: ADD
+  examples: |
+    - ADD
+    - add
+    - Add
+- synonym: REMOVE
+  examples: |
+    - REMOVE
+    - remove
+    - Remove
+- synonym: RESTORE
+  examples: |
+    - RESTORE
+    - restore
+    - Restore
+- synonym: CHANGE
+  examples: |
+    - CHANGE
+    - change
+    - Change
+- synonym: BROWSER ISSUE
+  examples: |
+    - BROWSER ISSUE
+    - Browser issue
+    - browser issue
+    - Browser Issue
+- synonym: OUTLOOK
+  examples: |
+    - OUTLOOK
+    - outlook
+    - Outlook
+- synonym: WINDOWS ISSUE
+  examples: |
+    - WINDOWS ISSUE
+    - Windows Isuue
+    - Windows issue
+    - windows issue
+- synonym: SYSTEM ISSUE
+  examples: |
+    - SYSTEM ISSUE
+    - System issue
+    - system issue
+    - System Issue
+- synonym: SYSTEM SETTING
+  examples: |
+    - SYSTEM SETTINGS
+    - system settings
+    - System Settings
+    - System settings
+- synonym: BROWSER SETTING
+  examples: |
+    - BROWSER SETTINGS
+    - browser settings
+    - Browser settings
+    - Browser Settings
+- synonym: NETWORK ISSUE
+  examples: |
+    - NETWORK ISSUE
+    - network issue
+    - Network Issue
+    - Network issue
+- synonym: CONNECT
+  examples: |
+    - CONNECT
+    - connect
+    - Connect
+- synonym: ([a-zA-Z0-9]{5})
+  examples: |
+    - ([a-zA-Z0-9]{5})
+- regex: emp_id
+  examples: |
+    - ([a-zA-Z0-9]{5})
+- lookup: opportunity
+  examples: |
+    - Won
+    - won opportunity
+    - won
+    - win
+    - Won Opportunity
+    - OPPORTUNITY WON
+    - opportunities won
+    - OPPORTUNITIES WON
+    - Loss
+    
+    - lost
+    - loss
+    - loss opportunity
+    - opportunity loss
+    - OPPORTUNITY LOSS
+    - opportunities loss
+    - OPPORTUNITIES LOSS
+    - Opportunity Loss
+- lookup: actionenable
+  examples: |
+    - Action Enable
+    - Action enable
+    - action enable
+    - actionenable
+    - enable action
+    - ENABLE
+    - enable
+    - Enable
+    - Action  Disable
+    - action disable
+    - actiondisable
+    - disable action
+    - ACTION DISABLE
+    - DISABLE
+    - disable
+    - Disable
+- lookup: url
+  examples: |
+    - url
+    - URL
+    - Url
+    - https://
+    - http://
+    - uri
+    - URI
+    - http
+    - https
+- lookup: confirmation
+  examples: |
+    - yes
+    - YES
+    - Yes
+    - NO
+    - no
+    - No
+- lookup: any
+  examples: |
+    - any
+- lookup: web
+  examples: |
+    - Web scenario creation
+    - WEB SCENARIO CREATION
+    - create web scenario
+    - create web scanerio
+    - WebScenarioCreation
+    - Web scenario deletion
+    - WEB SCENARIO DELETION
+    - delete web scenario
+    - WebScenarioDeletion
+- lookup: operations
+  examples: |
+    - CPU
+    - cpu
+    - CPU Utilization
+    - cpu utilization
+    - Cpu Util
+    - CpuUtil
+    - MEMORY
+    - memory
+    - memory_utilization
+    - memory utilization
+    - memory util
+    - MemoryUtil
+    - TRIGGER
+    - trigger
+    - top trigger
+    - toptriggers
+    - top_trigger
+    - TOP_TRIGGER
+    - TOP TRIGGER
+    - SYSTEM
+    - system availablity
+    - SYSTEM AVAILABLITY
+    - System
+    - availablity
+    - Availablity
+    - systemavailablity
+    - System availablity
+- lookup: hostenable
+  examples: |
+    - Host Enable
+    - Host enable
+    - enable host
+    - Hostenable
+    - Host Disable
+    - host disable
+    - disable host
+    - Hostdisable
+- lookup: total
+  examples: |
+    - totalwon
+    - TOTALWON
+    - totalwin
+    - TotalWon
+    - Totalwon
+    - totalloss
+    - TOTALLOSS
+    - Totalloss
+    - totalopen
+    - TotalOpen
+    - Totalopen
+    - TOTALOPEN
+- lookup: name
+  examples: |
+    - firstname
+    - FirstName
+    - Firstname
+    - FIRSTNAME
+    - namefirst
+    - lastname
+    - LASTNAME
+    - surname
+    - sirname
+    - LastName
+    - Lastname
+- lookup: action
+  examples: |
+    - install
+    - installation
+    - Installation
+    - Install
+    - INSTALL
+    - INSTALLATION
+    - uninstall
+    - uninstallation
+    - UNINSTALLATION
+    - UNINSTALL
+    - Uninstall
+    - troubleshoot
+    - TROUBLESHOOT
+    - trouble
+    - Trouble
+    - Troubleshooting
+    - troubleshooting
+    - clean
+    - issue
+    - Issue
+    - get
+    - show
+    - delete
+    - Delete
+    - clear
+    - Clear
+    - performing
+    - performance
+    - Raise sr
+    - service request
+    - SERVICE REQUEST
+    - RAISE SR
+    - LOGIN ISSUE
+    - login issue
+    - authentication
+    - authentication issue
+    - Authenticate
+    - Login
+    - login
+    - LOGIN
+    - NETWORK
+    - network
+    - Network
+    - SETTINGS
+    - settings
+    - Settings
+    - SECURITY
+    - security
+    - Security
+    - seCurity
+- lookup: ticketStatus
+  examples: |
+    - Open
+    - open
+    - 'OPEN
+    - pending
+    - Pending
+    - Closed
+    - closed
+    - close
+    - CLOSE
+    - CLOSED
+    - completed
+    - Completed
+    - ALL
+    - all
+    - All
+- lookup: hostgroup
+  examples: |
+    - Hostgroup creation
+    - Hostgroup Creation
+    - create hostgroup
+    - hostgroupcreation
+    - HostgroupCreation
+    - Hostgroup deletion
+    - Hostgroup Deletion
+    - hostgroup deletion
+    - delete hostgroup
+    - hostgroupdeletion
+    - HostgroupDeletion
+- lookup: option
+  examples: |
+    - IT
+    - it
+    - It
+    - CRM
+    - crm
+    - Crm
+    - HMS
+    - hms
+    - Hms
+    - zabbix
+    - ZABBIX
+    - Zabbix
+- lookup: media
+  examples: |
+    - Media Enable
+    - media enable
+    - MediaEnable
+    - enable media
+    - Media Disable
+    - media disable
+    - disable media
+- lookup: component
+  examples: |
+    - 7-zip
+    - 7zip
+    - 7ZIP
+    - 7Zip
+    - adobe
+    - ADOBE READER
+    - Adobe reader
+    - Adobe Reader
+    - adobe reader
+    - CHROME CACHE
+    - chrome cache
+    - Chrome Cache
+    - GOOGLE CHROME
+    - Google Chrome
+    - google chrome
+    - chrome
+    - Chrome browser
+    - chrome browser
+    - Google chrome
+    - JAVA RUNTIME
+    - java runtime
+    - JAVA
+    - java
+    - Java updates
+    - Java Runtime Latest Version
+    - Java latest version
+    - Java runtime latest
+    - java runtime latest
+    - java updates
+    - CPU TEMPERATURE
+    - CPU temperature
+    - CPU Temperature
+    - CPUt
+    - Cpu temperature
+    - cpu temperature
+    - RECYCLE BIN
+    - recycle bin
+    - Recycle Bin
+    - Recycle bin
+    - recyclebin
+    - WINDOWS
+    - windows
+    - Windows
+    - laptop
+    - Laptop
+    - ON DEMAND SCAN
+    - on demand scan
+    - on Demand Scan
+    - ondemandscan
+    - ONDEMANDSCAN
+    - On Demand Scan
+    - SYSTEM CPU UTILIZATION
+    - system cpu utilization
+    - System CPU utilization
+    - cpu
+    - CPU UTILIZATION
+    - CPU
+    - cpu utilization
+    - Cpu Utilization
+    - cpu usage
+    - CPU Usage
+    - RESOURCE PORTAL
+    - resource
+    - portal
+    - Resource Portal
+    - resource portal
+    - Resource
+    - WIFI
+    - Wifi
+    - WiFi
+    - wifi
+    - PROXY
+    - proxy
+    - Proxy
+    - PROXYBYPASS
+    - proxybypass
+    - ProxyByPass
+    - PROXY BY PASS
+    - proxy by pass
+    - SHAREPOINT
+    - sharepoint
+    - share
+    - SHARE
+    - share point
+    - ADMIN
+    - admin
+    - adm
+    - Admin
+    - ADM
+    - TICKETING DESK
+    - ticketing desk
+    - Ticketing Desk
+    - ticket
+    - Ticket
+    - VPN
+    - vpn
+    - Vpn
+    - IE TEMP
+    - IE temp
+    - ie temp
+    - IE Temp
+    - IE TEMP Files
+    - ie temp files
+    - IE temp files
+    - EVENT LOG
+    - event log
+    - Event log
+    - Event Log
+    - Event Logs
+    - MAIL
+    - mail
+    - Mail
+    - SKYPE
+    - skype
+    - Skype
+    - GATEWAY ENTRY
+    - gateway entry
+    - Gateway Entry
+    - Gateway entry
+    - DNS ENTRY
+    - DNS entry
+    - dns entry
+    - Dns Entry
+    - Dns entry
+    - TELNET
+    - Telnet
+    - telnet
+    - USB
+    - usb
+    - Usb
+    - IE POPUP BLOCKER
+    - IE popup blocker
+    - ie popup blocker
+    - BLUETOOTH
+    - bluetooth
+    - Bluetooth
+    - SHUTDOWN
+    - shutdown
+    - Shutdown
+    - HIBERNATE
+    - hibernate
+    - Hibernate
+    - PROXY SETTING
+    - proxy setting
+    - Proxy Setting
+    - Proxy setting
+    - CHECKPOINT VPN
+    - Checkpoint
+    - checkpoint vpn
+    - Checkpoint Vpn
+    - Checkpoint VPN
+    - Printer
+    - printer
+    - PRINTER
+    - Office printer
+    - office printer
+    - OFFICE PRINTER
+    - CUTEPDF WRITER
+    - Cutepdf Writer
+    - editor
+    - FLASH PLAYER FIREFOX
+    - Flash Player Firefox
+    - FIREFOXBROWSER
+    - firefoxbrowser
+    - IE COOKIES
+    - Ie cookies
+    - FIREFOX
+    - firefox
+    - FireFox
+    - SYSTEM TEMP
+    - system temp
+    - System Temp
+    - system temp files
+    - System Temp files
+    - SYSTEM TEMP FILES
+    - WINDOWS RESTORE
+    - Windows restore
+    - windows restore
+    - UNRESPONSIVE
+    - unresponsive
+    - Unresponsive
+    - response
+    - responding
+    - Response
+    - Monitor
+    - monitor
+    - MONITOR
+    - power
+    - Power
+    - POWER
+    - MONITOR POWER
+    - Monitor Power
+    - CHROME OPENING
+    - Chrome Opening
+    - chrome opening
+    - Chrome opening
+    - UPDATE ISSUE
+    - update issue
+    - Update Issue
+    - Update issue
+    - SAP
+    - sap
+    - Sap
+    - DISK CLEANUP
+    - Disk cleanup
+    - disk cleanup
+    - cleanup
+    - Cleanup
+    - Disk
+    - TRUST RELATIONSHIP
+    - Trust Relationship
+    - trust relationship
+    - windows trust
+    - Windows trust
+    - WORKSTATION
+    - workstation
+    - maintenance
+    - Maintenance
+    - workstation maintenance
+    - APP STORE
+    - app store
+    - App store
+    - MSOFFICE
+    - MS Office
+    - ms office
+    - ms-office
+    - MS-Office
+    - MS-OFFICE
+    - microsoft office
+    - CHROME DEFAULT
+    - chrome default
+    - Default Browser Chrome
+    - default browser chrome
+    - OLD FILES
+    - old files
+    - Old Files
+    - Old files
+    - older than
+    - Older
+    - FIREWALL
+    - firewall
+    - Firewall
+    - ANTIVIRUS
+    - antivirus
+    - Antivirus
+    - IP
+    - ip
+    - Ip
+    - WINZIP
+    - winzip
+    - win zip
+    - Win zip
+    - Win Zip
+    - FORTINET
+    - VPN CLIENT
+    - VPN Client
+    - Fortinet VPN
+    - FORTINET VPN
+    - Fortinet VPN client
+    - SOPHOS
+    - sophos
+    - sophos end point
+    - Sophos antivirus
+    - Sophos End Point Antivirus
+    - ANYDESK
+    - anydesk
+    - any desk
+    - Anydesk
+    - TEAMVIEWER
+    - teamviewer
+    - Teamviewer
+    - Team viewer
+    - IP PHONE
+    - 3CX IP Phone Software
+    - 3CX phone
+    - 3 IP phone
+    - 3CX IP Phone
+    - Printer Driver
+    - PRINTER DRIVER
+    - printer driver
+    - EJIJO
+    - ejijo
+    - Ejijo
+    - E_jijo
+    - Mobile app
+    - Mobile application
+- lookup: category
+  examples: |
+    - software
+    - SOFTWARE
+    - Software
+    - hardware
+    - HARDWARE
+    - Hardware
+    - BROWSER
+    - browser
+    - Browser
+    - FORGOT PASSWORD
+    - forgot
+    - Forgot
+    - Forgot password
+    - Forgot Password
+    - EXPIRED PASSWORD
+    - Expired
+    - Expired Password
+    - expired
+    - expire
+    - SECURITY ENABLED
+    - SECURITY ENABLE
+    - security enables
+    - security enable
+    - security enabled
+    - security enable
+    - enable security
+    - Security Enabled
+    - SECURITY DISABLE
+    - SECURITY DISABLED
+    - Security disabled
+    - SECURITY DISABLE
+    - Security disable
+    - disable security
+    - RESET PASSWORD
+    - reset password
+    - Reset Password
+    - Reset password
+    - reset
+    - RESET
+    - Reset
+    - ADD
+    - add
+    - Add
+    - REMOVE
+    - remove
+    - Remove
+    - SYSTEM
+    - system
+    - System
+    - RESTORE
+    - restore
+    - Restore
+    - CHANGE
+    - change
+    - Change
+    - BROWSER ISSUE
+    - Browser issue
+    - browser issue
+    - Browser Issue
+    - ENABLE
+    - enable
+    - Enable
+    - DISABLE
+    - Disable
+    - disable
+    - disconnect
+    - Disconnect
+    - DISCONNECT
+    - OUTLOOK
+    - outlook
+    - Outlook
+    - WINDOWS ISSUE
+    - Windows Isuue
+    - Windows issue
+    - windows issue
+    - SYSTEM ISSUE
+    - System issue
+    - system issue
+    - System Issue
+    - SYSTEM SETTINGS
+    - system settings
+    - System Settings
+    - System settings
+    - BROWSER SETTINGS
+    - browser settings
+    - Browser settings
+    - Browser Settings
+    - NETWORK ISSUE
+    - network issue
+    - Network Issue
+    - Network issue
+    - CONNECT
+    - connect
+    - Connect
+

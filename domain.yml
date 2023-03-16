@@ -1,0 +1,144 @@
+version: "2.0"
+
+intents:
+  - greet
+  - goodbye
+  - affirm
+  - deny
+  - mood_great
+  - mood_unhappy
+  - bot_challenge
+  - Default FallbackIntent
+  - nlu_fallback
+  - IT_ISSUE_COMPONENT
+  - IT_LOGIN_CONFIRMAION
+  - IT_LOGIN_LIST
+  - IT_Options
+  - Mediatask
+  - Application_login
+  - mediatype
+  - opportunity
+  - Performance_issue
+  - problemname
+  - reportgentask
+  - sum_value
+  - TICKET_LIST
+  - ticket_status
+  - webscenario
+  - webtask
+  - welcome
+  - Host_operations
+  - urlname
+  - IT_CLEAN_LIST
+  - PROFILE
+  - WINDOWS_LOGIN
+  - thanks
+  - installations
+  - installation_issue
+  - uninstallation_issue
+  - uninstallations
+  - browser_component_issue
+  - browser_performance_issue
+  - browser_settings
+  - login_component
+  - network_component_issue
+  - raise_ticket
+  - system_issue_component
+  - system_performance_issue
+  - troubleshoot_outlook
+  - Email_Verify
+  - email_otp2
+  - component_confirmation
+  - login issues
+  - check_ticket_status
+  - get_ticket_id
+
+responses:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_cheer_up:
+  - text: "Here is something to cheer you up:"
+    image: "https://i.imgur.com/nGF1K8f.jpg"
+
+  utter_did_that_help:
+  - text: "Did that help you?"
+
+  utter_happy:
+  - text: "Great, carry on!"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_iamabot:
+  - text: "I am a bot, powered by Rasa."
+
+entities:
+  - action
+  - actionenable
+  - any
+  - category
+  - component
+  - confirmation
+  - hostenable
+  - hostgroup
+  - media
+  - name
+  - operations
+  - opportunity
+  - option
+  - ticketStatus
+  - total
+  - url
+  - web
+  - emp_id
+  - ticket_id
+  - otp
+  - statuscode
+  - email
+
+slots:
+  action:
+    type: text
+  category:
+    type: text
+  any:
+    type: text
+  component:
+    type: text
+  confirmation:
+    type: text
+  web:
+    type: text
+  url:
+    type: text
+  ticketStatus:
+    type: text
+  actionenable:
+    type: text
+  name:
+    type: text
+  hostgroup:
+    type: text
+  total:
+    type: text
+  hostenable:
+    type: text
+  number:
+    type: text
+  email:
+    type: text
+
+forms:
+  installation_form:
+    component:
+      - type: from_entity
+        entity: component
+    confirmation:
+      - type: from_entity
+        entity: confirmation
+
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true
